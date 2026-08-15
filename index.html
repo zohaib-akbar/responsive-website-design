@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Winter Moments - Gallery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home">Winter Moments</a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Open navigation">
+      <label for="nav-toggle" class="nav-toggle" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="main-nav">
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <nav class="mobile-nav" aria-hidden="true">
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <h1 class="title">A Collection of Frozen Beauty</h1>
+        <p class="subtitle">Capturing serene winter landscapes, cozy moments, and festive details.</p>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery-section container">
+      <div class="gallery-header">
+        <h2>Gallery</h2>
+        <div class="filters">
+          <button class="filter active">All</button>
+          <button class="filter">Landscapes</button>
+          <button class="filter">Decorations</button>
+          <button class="filter">Food</button>
+          <button class="filter">Family</button>
+        </div>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="card">
+          <img src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=1200&q=80" alt="Mountain Snow">
+          <figcaption>
+            <h3>Mountain Snow</h3>
+            <span class="meta">Landscapes</span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=1200&q=80" alt="Ornament Detail">
+          <figcaption>
+            <h3>Ornament Detail</h3>
+            <span class="meta">Decorations</span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=1200&q=80" alt="Winter Warmth">
+          <figcaption>
+            <h3>Winter Warmth</h3>
+            <span class="meta">Food</span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="https://images.unsplash.com/photo-1491002052546-bf38f186af56?w=1200&q=80" alt="Frozen Lake">
+          <figcaption>
+            <h3>Frozen Lake</h3>
+            <span class="meta">Landscapes</span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?w=1200&q=80" alt="Family Joy">
+          <figcaption>
+            <h3>Family Joy</h3>
+            <span class="meta">Family</span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="https://images.unsplash.com/photo-1543589077-47d81606c1bf?w=1200&q=80" alt="Holiday Lights">
+          <figcaption>
+            <h3>Holiday Lights</h3>
+            <span class="meta">Decorations</span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="https://images.unsplash.com/photo-1514517521153-1be72277b32f?w=1200&q=80" alt="Festive Treats">
+          <figcaption>
+            <h3>Festive Treats</h3>
+            <span class="meta">Food</span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=1200&q=80" alt="Winter Forest">
+          <figcaption>
+            <h3>Winter Forest</h3>
+            <span class="meta">Landscapes</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <div class="about-inner">
+        <div class="about-text">
+          <h2>About</h2>
+          <p>Capturing the serene beauty of winter landscapes has been my passion for over a decade. Each photograph tells a story of frozen moments, quiet snowfalls, and the peaceful stillness that blankets the world during the coldest months.</p>
+        </div>
+        <div class="about-meta">
+          <img src="https://images.unsplash.com/photo-1452802447250-470a88ac82bc?w=800&q=80" alt="Photographer">
+          <div class="stats">
+            <strong>10+ YEARS</strong>
+            <span>EXPERIENCE</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Get in Touch</h2>
+      <p>Let's work together to capture your winter moments</p>
+      <form class="contact-form">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <p>📧 hello@winterportfolio.com</p>
+        <p>📱 +1 (555) 123-4567</p>
+        <p>📍 Colorado, USA</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Winter Portfolio • Designed by Tooplate</p>
+    </div>
+  </footer>
+</body>
+</html>
